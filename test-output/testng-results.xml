@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="13" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-24T11:05:50 IST" name="Suite" finished-at="2025-03-24T11:06:10 IST" duration-ms="20189">
+    <groups>
+    </groups>
+    <test started-at="2025-03-24T11:05:50 IST" name="Test" finished-at="2025-03-24T11:06:10 IST" duration-ms="20189">
+      <class name="pack.AddEmployeePage">
+        <test-method signature="createNewEmployee()[pri:0, instance:pack.AddEmployeePage@70e8f8e]" started-at="2025-03-24T11:06:01 IST" name="createNewEmployee" finished-at="2025-03-24T11:06:08 IST" duration-ms="6874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewEmployee -->
+      </class> <!-- pack.AddEmployeePage -->
+      <class name="pack.PimPage">
+        <test-method signature="navigateToAddEmployeePage()[pri:0, instance:pack.PimPage@2e4b8173]" started-at="2025-03-24T11:05:55 IST" name="navigateToAddEmployeePage" finished-at="2025-03-24T11:06:01 IST" duration-ms="6036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToAddEmployeePage -->
+      </class> <!-- pack.PimPage -->
+      <class name="pack.ContactDetailsPage">
+        <test-method signature="AddContactDetails()[pri:0, instance:pack.ContactDetailsPage@17046283]" started-at="2025-03-24T11:06:08 IST" name="AddContactDetails" finished-at="2025-03-24T11:06:10 IST" duration-ms="2657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddContactDetails -->
+      </class> <!-- pack.ContactDetailsPage -->
+      <class name="pack.LoginPage">
+        <test-method signature="Lauch()[pri:0, instance:pack.LoginPage@72a7c7e0]" started-at="2025-03-24T11:05:52 IST" name="Lauch" finished-at="2025-03-24T11:05:53 IST" duration-ms="833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lauch -->
+        <test-method signature="Login()[pri:0, instance:pack.LoginPage@72a7c7e0]" started-at="2025-03-24T11:05:53 IST" name="Login" finished-at="2025-03-24T11:05:55 IST" duration-ms="2266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+      </class> <!-- pack.LoginPage -->
+      <class name="pack.Base">
+        <test-method is-config="true" signature="initialise()[pri:0, instance:pack.Base@769f71a9]" started-at="2025-03-24T11:05:50 IST" name="initialise" finished-at="2025-03-24T11:05:52 IST" duration-ms="1474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pack.Base@769f71a9]" started-at="2025-03-24T11:06:11 IST" name="tearDown" finished-at="2025-03-24T11:06:11 IST" duration-ms="378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- pack.Base -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
